@@ -1,0 +1,153 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+.btn {
+    color: #FFF;
+    background-color: rgba(44, 66, 81, 0.90);
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: #FFF;
+    background-color: #2C4251;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+
+.btn:active {
+    background-color: #2C4251;
+    border: 1px solid #2C4251;
+}
+
+.flex {
+    display: flex;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: rgba(205, 198, 174, 0.5);
+    font-size: 20px;
+}
+
+.nav-container {
+    padding: 0.5rem;
+}
+
+.blogish-logo {
+    color: #2C4251;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.blogish-logo:hover {
+    color: #2C4251;
+    text-decoration: none;
+}
+
+.nav-item {
+    padding: 5px;
+}
+
+.nav-link {
+    color: #000;
+    border: 5px solid transparent;
+    border-radius: 5px;
+    margin: 0 0.5rem;
+    padding: 1px;
+}
+
+.nav-link:hover {
+    background-color: #2C4251;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    color: transparent;
+    background-color: #2C4251;
+    border: 1px solid transparent;
+}
+
+.menu-bar {
+    display: block;
+    width: 90%;
+    border: 1.50px solid #FFF;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+/* TEMPLATE */
+.page-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+.main-text {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-container {
+    width: 99%;
+    margin: auto 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.card-item {
+    background-color:rgba(205, 198, 174, 0.5);
+    border: 5px solid #2C4251;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 20%;
+    overflow-wrap: break-word;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-item > * {
+    margin-bottom: 2px;
+}
+
+.card-link {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(44, 66, 81, 0.85);
+}
+
+.card-link:hover {
+    color: #2C4251;
+}
+
+.card-author,
+.card-date {
+    font-size: 18px;
+}
+
+.card-author {
+    font-style: italic;
+}
+
+.card-date {
+    color: rgba(0, 0, 0, 0.60);
+}

@@ -1,0 +1,95 @@
+/* VIEW POST */
+.post-container {
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2rem;
+    overflow-wrap: anywhere;
+}
+
+.post-author {
+    font-size: 25px;
+}
+
+.post-text {
+    font-size: 20px;
+}
+
+.home-link {
+    margin-right: 0.5rem;
+}
+
+.edit-btn {
+    display: inline-block;
+}
+
+.delete-link {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid transparent;
+}
+
+.delete-link:hover {
+    text-decoration: underline;
+}
+
+/* CREATE AND EDIT POST */
+.create-container,
+.edit-container {
+    margin: 1rem;
+}
+
+.form-row {
+    flex-direction: column;
+}
+
+.title-lbl,
+.author,
+.text-lbl {
+    font-weight: 700;
+}
+
+.author,
+.form-row {
+    margin-bottom: 0.5rem;
+}
+
+.user-box {
+    font-weight: 400;
+}
+
+.field-title,
+.field-text {
+    width: 98%;
+    border: 1px solid rgba(0, 0, 0, 0.60);
+    border-radius: 5px;
+}
+
+.field-title {
+    padding: 5px;
+}
+
+.field-text {
+    padding: 10px;
+    resize: none;
+}
+
+.home-btn {
+    margin-top: 0.5rem;
+}
+
+/* DELETE POST */
+.action-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-msg {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.del-home-btn {
+    width: 30%;
+}

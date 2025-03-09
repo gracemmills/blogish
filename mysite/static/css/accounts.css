@@ -1,0 +1,63 @@
+/* UTILITIES */
+.account-title {
+    margin-bottom: 2rem;
+}
+
+.account-container,
+.form-container,
+.login-form,
+.register-form {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-container {
+    background-color: rgba(205, 198, 174, 0.5);
+    border: 5px solid #2C4251;
+    border-radius: 15px;
+    width: 50%;
+    height: 75vh;
+    margin: 2rem auto;
+}
+
+/* LOGIN */
+.login-form {
+    font-size: 20px;
+}
+
+.login-form > * {
+    padding: 10px;
+}
+
+.nonfield {
+    font-size: 18px;
+    text-align: center;
+    list-style: none;
+}
+
+.login-btn {
+    font-size: 20px;
+    width: 50%;
+}
+
+/* LOG OUT */
+.out-home-btn {
+    width: 25%;
+}
+
+/* REGISTRATION */
+.register-container {
+    width: 60%;
+    height: auto;
+    padding: 1rem;
+}
+
+.register-form {
+    align-items: start;
+}
+
+.register-btn {
+    align-self: center;
+    width: 30%;
+}
